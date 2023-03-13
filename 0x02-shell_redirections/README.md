@@ -11,3 +11,5 @@ Displaying the content of 2 files simulatenously
 `tail filename` can be used to get the last 10 lines of the file named `filename`
 5. I'd prefer the first ones actually
 Similary to `tail` command, we can also use `head` command to list the first 10 lines of a file.
+6. Line #2
+Listing a specific number of lines in a file can be done using the `head` or `tail` command with `-n [n]` option.
