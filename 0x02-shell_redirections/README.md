@@ -20,3 +20,5 @@ Redirectimg the output of `ls -la` to a file named `ls_cwd_content`
 9. Duplicate last line
 To get the last line, we can use `tail -n 1` and then redirect the output as an appension to `iacta` file
 `tail -n 1 >> iacta` will duplicate the last line of the file.
+10. No more javascript
+Deleting all javascript files `rm -r *.js` in the current working directory.
