@@ -24,3 +24,5 @@ To get the last line, we can use `tail -n 1` and then redirect the output as an 
 Deleting all javascript files `rm -r *.js` in the current working directory.
 11. Don't just count your directories, make your directories count
 `ls -lRa` lists all the directories and subdirectories together with their count. `-l` is used to list in the long format, `-R` recursively and `-a` all the files and directories including the hidden ones.
+12. What’s new
+Listing the latest files in the directory.
