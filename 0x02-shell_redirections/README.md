@@ -9,3 +9,5 @@ However, we'll have to use the `\`  character to signify that the double quotes 
 Displaying the content of 2 files simulatenously
 4. Last lines of a file
 `tail filename` can be used to get the last 10 lines of the file named `filename`
+5. I'd prefer the first ones actually
+Similary to `tail` command, we can also use `head` command to list the first 10 lines of a file.
