@@ -7,3 +7,5 @@ However, we'll have to use the `\`  character to signify that the double quotes 
 `cat` command is used to display the content of a certain file
 3. What about 2?
 Displaying the content of 2 files simulatenously
+4. Last lines of a file
+`tail filename` can be used to get the last 10 lines of the file named `filename`
