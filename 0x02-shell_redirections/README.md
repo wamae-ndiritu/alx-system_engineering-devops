@@ -13,3 +13,5 @@ Displaying the content of 2 files simulatenously
 Similary to `tail` command, we can also use `head` command to list the first 10 lines of a file.
 6. Line #2
 Listing a specific number of lines in a file can be done using the `head` or `tail` command with `-n [n]` option. However, if we want to display just 1 line, let's say the 3rd line we can use pipelines as `head -n 3 | tail -n 1` which will list the first 3 lines and then print the last line of the 3 and therefore we end up printing the 3rd line alone.
+7. It is a good file that cuts iron without making a noise
+Making a file with a name that has some special characters such as `\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)` requires you to escape some of the special charcetrs using the `\`.
