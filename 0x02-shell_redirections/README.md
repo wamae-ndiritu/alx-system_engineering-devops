@@ -30,3 +30,6 @@ Listing the latest files in the directory. We can use `ls -t | head` to listsort
 Sorting input words and prints the words only apearing once. `sort | uniq -u`. The option `-u` is used to only print unique lines.
 [14. It must be in that file](./14-findthatword)
 Using `grep` command to find pattern is a file.
+[15. Count that word](./15-countthatword)
+
+Using `grep` with `-c` option can enable us to display the count of words with the specified pattern.
