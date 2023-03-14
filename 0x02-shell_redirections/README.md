@@ -42,3 +42,6 @@ To get some context after a certain pattern, we can use `grep -A` and specify th
 [17. I hate bins](./17-hidethisword)
 We can reverse the matching option with a pattern. Instead of displaying lines that match the pattern, we display the lines that do not match.
 `grep -v "bin" /etc/passwd`
+
+[18. Letters only please](./18-letteronly)
+To search a specific letter without considering it's case, we can use `grep -i "a" filename`. The `-i` optio allows to ignore the case.
