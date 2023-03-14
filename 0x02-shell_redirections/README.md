@@ -48,3 +48,6 @@ To search a specific letter without considering it's case, we can use `grep -i "
 
 [19. A to Z](./19-AZ)
 We can replace set of strings with others. This is made possible by the use of `tr` command. eg `tr 'Ac' 'Ze'`
+
+[20. Without C, you would live in hiago](./20-hiago)
+`tr` translates characters or delete the characters. To delete characters, we can use `-d` option. `tr -d 'Ac'`
