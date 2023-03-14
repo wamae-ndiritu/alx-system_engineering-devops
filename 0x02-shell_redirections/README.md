@@ -51,3 +51,6 @@ We can replace set of strings with others. This is made possible by the use of `
 
 [20. Without C, you would live in hiago](./20-hiago)
 `tr` translates characters or delete the characters. To delete characters, we can use `-d` option. `tr -d 'Ac'`
+
+[21. esreveR](./21-reverse)
+To reverse characters, we can run `rev`
