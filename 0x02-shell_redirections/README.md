@@ -45,3 +45,6 @@ We can reverse the matching option with a pattern. Instead of displaying lines t
 
 [18. Letters only please](./18-letteronly)
 To search a specific letter without considering it's case, we can use `grep -i "a" filename`. The `-i` optio allows to ignore the case.
+
+[19. A to Z](./19-AZ)
+We can replace set of strings with others. This is made possible by the use of `tr` command. eg `tr 'Ac' 'Ze'`
