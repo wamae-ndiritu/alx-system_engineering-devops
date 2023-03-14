@@ -28,3 +28,5 @@ Deleting all javascript files `rm -r *.js` in the current working directory.
 Listing the latest files in the directory. We can use `ls -t | head` to listsorted files based on time and then  take the first 10.
 [13. Being unique is better than being perfect](./13-unique)
 Sorting input words and prints the words only apearing once. `sort | uniq -u`. The option `-u` is used to only print unique lines.
+[14. It must be in that file](./14-findthatword)
+Using `grep` command to find pattern is a file.
