@@ -58,3 +58,6 @@ To reverse characters, we can run `rev`
 [22. DJ Cut Killer](./22-users_and_homes)
 The `cut` command is used to extract parts of a file by byte position, character or a field. To create a script that displays all users and their home directories, sorted by users.
 Based on the the /etc/passwd file, we will run `cut -d: -f1,6 /etc/passwd`. The `-d` options specifies the delimeter which in our case will be the `:`:`, `-f` option shows the field we want to extract and in this case is the user and their home directories. The user is in the 1 field while their home directory is in the 6 field.
+
+[23. Empty casks make the most noise](./100-empty_casks)
+To get the empty files and dir in our current directory, we can run `find . -empty`. However, we also want to include the hidden files and therefore we can run `find . -empty -printf '%P\n'`. `-printf` option specifies the format of the output and with our options, `%P\n` prints the file name and adds a new line.
