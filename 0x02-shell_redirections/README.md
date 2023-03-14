@@ -25,4 +25,6 @@ Deleting all javascript files `rm -r *.js` in the current working directory.
 11. Don't just count your directories, make your directories count
 `ls -lRa` lists all the directories and subdirectories together with their count. `-l` is used to list in the long format, `-R` recursively and `-a` all the files and directories including the hidden ones.
 12. What’s new
-Listing the latest files in the directory.
+Listing the latest files in the directory. We can use `ls -t | head` to listsorted files based on time and then  take the first 10.
+[13. Being unique is better than being perfect](./13-unique)
+Sorting input words and prints the words only apearing once. `sort | uniq -u`. The option `-u` is used to only print unique lines.
