@@ -38,3 +38,7 @@ Using `grep` with `-c` option can enable us to display the count of words with t
 
 [16. What's next?](./16-whatsnext)
 To get some context after a certain pattern, we can use `grep -A` and specify the number of lines we want after the pattern.
+
+[17. I hate bins](./17-hidethisword)
+We can reverse the matching option with a pattern. Instead of displaying lines that match the pattern, we display the lines that do not match.
+`grep -v "bin" /etc/passwd`
