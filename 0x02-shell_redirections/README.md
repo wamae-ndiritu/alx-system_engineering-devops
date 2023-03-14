@@ -26,10 +26,15 @@ Deleting all javascript files `rm -r *.js` in the current working directory.
 `ls -lRa` lists all the directories and subdirectories together with their count. `-l` is used to list in the long format, `-R` recursively and `-a` all the files and directories including the hidden ones.
 12. What’s new
 Listing the latest files in the directory. We can use `ls -t | head` to listsorted files based on time and then  take the first 10.
+
 [13. Being unique is better than being perfect](./13-unique)
 Sorting input words and prints the words only apearing once. `sort | uniq -u`. The option `-u` is used to only print unique lines.
+
 [14. It must be in that file](./14-findthatword)
 Using `grep` command to find pattern is a file.
-[15. Count that word](./15-countthatword)
 
+[15. Count that word](./15-countthatword)
 Using `grep` with `-c` option can enable us to display the count of words with the specified pattern.
+
+[16. What's next?](./16-whatsnext)
+To get some context after a certain pattern, we can use `grep -A` and specify the number of lines we want after the pattern.
