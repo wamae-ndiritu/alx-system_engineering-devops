@@ -54,3 +54,7 @@ We can replace set of strings with others. This is made possible by the use of `
 
 [21. esreveR](./21-reverse)
 To reverse characters, we can run `rev`
+
+[22. DJ Cut Killer](./22-users_and_homes)
+The `cut` command is used to extract parts of a file by byte position, character or a field. To create a script that displays all users and their home directories, sorted by users.
+Based on the the /etc/passwd file, we will run `cut -d: -f1,6 /etc/passwd`. The `-d` options specifies the delimeter which in our case will be the `:`:`, `-f` option shows the field we want to extract and in this case is the user and their home directories. The user is in the 1 field while their home directory is in the 6 field.
