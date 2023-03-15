@@ -12,4 +12,6 @@
 
 [5. Local variables](./5-local_variables) - The `set` command lists all local variables and environment variables, and functions.
 
+[6. Local variable](./6-create_local_variable) - Creating a local variable. `BEST="School"` The variable named `BEST` will only be accessed locally.
 
+[7. Global variable](./7-create_global_variable) - A Global variable on the other hand is accessed by any shell unlike the local one that can only be accessed by the current shell. Therefore, to define a global variable, it must be exported. `export BEST="School"`.
