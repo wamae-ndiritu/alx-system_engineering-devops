@@ -28,4 +28,6 @@
 
 [13. Floats](./13-print_float) - prints a number with two decimal places, followed by a new line. To do this, we can use `printf` and use a format specifier. In this case `%f` will format the it to a floating-point integer and add a new line at the end. `printf "%.2f\n"`. `.2f` will give us two decimal places.
 
+[14. Decimal to Hexadecima](./100-decimal_to_hexadecimal) - To convert decimal to hexadecimal, we can use the format specifier `%x`. This will format the input decimal value to a hexadecimal (base 16). Of course, the format specifier is used with the `printf`.
+
 
