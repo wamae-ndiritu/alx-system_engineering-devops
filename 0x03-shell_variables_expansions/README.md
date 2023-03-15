@@ -21,3 +21,7 @@
 [9. Divide and rule](./9-divide_and_rule) - POWER divided by DIVIDE. Prforming arithmetic operations with global Variables.
 
 [10. Love is anterior to life, posterior to death, initial of creation, and the exponent of breath](./10-love_exponent_breath) - To perform an arithmetic operation based on exponential (power). `echo $((BREATH ** LOVE))` will return value of`BREATH` to power `LOVE`.
+
+[11. There are 10 types of people in the world -- Those who understand binary, and those who don't](./11-binary_to_decimal) - Changing base 2 to base base 10. This is essentially converting a binary to a decimal with use an environment variable.
+
+
