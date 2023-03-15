@@ -24,4 +24,4 @@
 
 [11. There are 10 types of people in the world -- Those who understand binary, and those who don't](./11-binary_to_decimal) - Changing base 2 to base base 10. This is essentially converting a binary to a decimal with use an environment variable.
 
-
+[12. Combination](./12-combinations) - The aim is to list all possible combinations of two letters, except oo. We first need to list all the possible combinations of characters. For every letter in set 1 must be combined with all the letters in set 2. To print a-z, we can `echo {a..z}` and to combines each with another character, `echo {a..z}{a..z}`. This will output all these combinations in a single line, and as a result we can translate the space between each combination as a new line `tr " " "\n". This will list all the combinations with a new line at the end. Finally we, can pipe this output to a `grep -v` command with the pattern "oo". This will ensure the combination `oo` is not listed. `echo {a..z}{a..z} | tr " " "\n" | egrep -v "oo"`
