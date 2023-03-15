@@ -15,3 +15,9 @@
 [6. Local variable](./6-create_local_variable) - Creating a local variable. `BEST="School"` The variable named `BEST` will only be accessed locally.
 
 [7. Global variable](./7-create_global_variable) - A Global variable on the other hand is accessed by any shell unlike the local one that can only be accessed by the current shell. Therefore, to define a global variable, it must be exported. `export BEST="School"`.
+
+[8. Every addition to true knowledge is an addition to human power](./8-true_knowledge) - addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE. 
+
+[9. Divide and rule](./9-divide_and_rule) - POWER divided by DIVIDE. Prforming arithmetic operations with global Variables.
+
+
