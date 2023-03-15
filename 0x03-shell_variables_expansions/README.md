@@ -20,4 +20,4 @@
 
 [9. Divide and rule](./9-divide_and_rule) - POWER divided by DIVIDE. Prforming arithmetic operations with global Variables.
 
-
+[10. Love is anterior to life, posterior to death, initial of creation, and the exponent of breath](./10-love_exponent_breath) - To perform an arithmetic operation based on exponential (power). `echo $((BREATH ** LOVE))` will return value of`BREATH` to power `LOVE`.
