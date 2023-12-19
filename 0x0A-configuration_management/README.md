@@ -20,7 +20,7 @@ This Puppet code installs the Flask package from pip3, ensuring it's version 2.1
 
 ```bash
 puppet apply 1-install_a_package.pp
-
+```
 ## Task 2: Execute a Command
 
 ### Puppet Code: [2-execute_a_command.pp](./2-execute_a_command.pp)
@@ -29,7 +29,7 @@ This Puppet manifest demonstrates using the `exec` resource to execute a command
 
 ```bash
 puppet apply 2-execute_a_command.pp
-
+```
 # Key Concepts
 
 ## Puppet Resources
