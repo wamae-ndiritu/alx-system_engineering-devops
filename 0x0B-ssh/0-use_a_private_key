@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Server IP or hostname
 server="8.8.8.8"
 
