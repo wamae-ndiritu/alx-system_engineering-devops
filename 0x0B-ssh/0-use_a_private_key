@@ -7,4 +7,4 @@ server="8.8.8.8"
 private_key="~/.ssh/school"
 
 # SSH connection using single-character flags
-ssh -i "$private_key" -o "StrictHostKeyChecking=no" -o "UserKnownHostsFile=/dev/null" "ubuntu@$server"
+ssh -i "$private_key" ubuntu@"$server"
