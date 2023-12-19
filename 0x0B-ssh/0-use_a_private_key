@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# Server IP or hostname
+server="8.8.8.8"
+
+# Path to the private key
+private_key="~/.ssh/school"
+
+# SSH connection using single-character flags
+ssh -i "$private_key" -o "StrictHostKeyChecking=no" -o "UserKnownHostsFile=/dev/null" "ubuntu@$server"
