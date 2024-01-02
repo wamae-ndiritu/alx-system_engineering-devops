@@ -40,7 +40,7 @@ def get_employee_todo_progress(employee_id):
 
         # Write csv header
         heads = ["USER_ID", "USERNAME", "TASK_COMPLETED_STATUS", "TASK_TITLE"]
-        csv_writer.writerow(heads)
+        #csv_writer.writerow(heads)
 
         # Write data to csv
         for task in todo_list:
