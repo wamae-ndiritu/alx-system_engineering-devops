@@ -38,15 +38,13 @@ def get_employee_todo_progress(employee_id):
     username = user_info.get("username")
     csv_filename = f"{employee_id}.csv"
     with open(csv_filename, mode='w', newline='') as csv_file:
-        csv_writer = csv.writer(csv_file, quotechar='"',
-                                quoting=csv.QUOTE_MINIMAL)
-
         # Write data to csv
         for task in todo_list:
             completed = str(task['completed'])
             title = task['title']
-            row = [employee_id, username, completed, title]
-            csv_writer.writerow(row)
+            e_id = str(employee_id)
+            line = f"\"{e_id}\",\"{username}\",\"{completed}\",\"{title}\""
+            csv_file.write(line + '\n')
 
 
 if __name__ == "__main__":
