@@ -36,17 +36,18 @@ def get_employee_todo_progress(employee_id):
     # Export data to CSV
     csv_filename = f"{employee_id}.csv"
     with open(csv_filename, mode='w', newline='') as csv_file:
-        csv_writer = csv.writer(csv_file)
+        csv_writer = csv.writer(csv_file, quotechar='"',
+                                quoting=csv.QUOTE_MINIMAL)
 
         # Write csv header
         heads = ["USER_ID", "USERNAME", "TASK_COMPLETED_STATUS", "TASK_TITLE"]
-        #csv_writer.writerow(heads)
+        # csv_writer.writerow(heads)
 
         # Write data to csv
         for task in todo_list:
             completed = str(task['completed'])
             title = task['title']
-            row = [employee_id, employee_name, completed, title]
+            row = [employee_id, str(employee_name), completed, title]
             csv_writer.writerow(row)
 
 
