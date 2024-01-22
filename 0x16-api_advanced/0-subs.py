@@ -20,7 +20,7 @@ def number_of_subscribers(subreddit):
     # Set a custom User-Agent to avoud Too Many Requests error
     headers = {'User-Agent': 'Custom User Agent'}
 
-    response = requests.get(url, headers=headers)
+    response = requests.get(url, headers=headers, allow_redirects=False)
 
     # Check if the request was successful
     if response.status_code == 200:
