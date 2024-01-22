@@ -3,7 +3,6 @@
 The module defines a function that queries data from an API
 """
 import requests
-import json
 
 
 def number_of_subscribers(subreddit):
