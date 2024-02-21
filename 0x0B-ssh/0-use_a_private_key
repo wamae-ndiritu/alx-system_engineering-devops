@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Server IP or hostname
-server="8.8.8.8"
+server="100.26.50.133"
 
 # Path to the private key
 private_key="~/.ssh/school"
